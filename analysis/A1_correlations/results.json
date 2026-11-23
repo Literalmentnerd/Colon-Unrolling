@@ -1,0 +1,1273 @@
+{
+  "n_datasets": 12,
+  "input_csv": "input.csv",
+  "pairs": {
+    "bridge_edges_per_m__vs__stretched_edges_pct": {
+      "n": 12,
+      "pearson_r": 0.461032396094041,
+      "pearson_p": 0.13142634970699069,
+      "spearman_rho": 0.5524475524475525,
+      "spearman_p": 0.06251148327961512,
+      "leave_one_out": {
+        "pearson_r_range": [
+          0.3823935128025031,
+          0.6809410431507641
+        ],
+        "spearman_rho_range": [
+          0.4727272727272727,
+          0.6363636363636364
+        ],
+        "per_dataset": [
+          {
+            "dropped": "787",
+            "r": 0.4639951180121599,
+            "p": 0.15054371528939153,
+            "rho": 0.5090909090909091,
+            "p_rho": 0.1097372322416564,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "518",
+            "r": 0.6809410431507641,
+            "p": 0.021072668729856324,
+            "rho": 0.6363636363636364,
+            "p_rho": 0.03528698122006228,
+            "pearson_sign_or_sig_flip": true,
+            "spearman_sign_or_sig_flip": true
+          },
+          {
+            "dropped": "2320",
+            "r": 0.5051349257378713,
+            "p": 0.11299113638213673,
+            "rho": 0.5636363636363637,
+            "p_rho": 0.07095173447637536,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "3114",
+            "r": 0.4780040329626411,
+            "p": 0.13698619934601325,
+            "rho": 0.6181818181818182,
+            "p_rho": 0.042645569805326695,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": true
+          },
+          {
+            "dropped": "4371",
+            "r": 0.4173516060231607,
+            "p": 0.20155801349986385,
+            "rho": 0.48181818181818187,
+            "p_rho": 0.1334338382568288,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "563",
+            "r": 0.4564504493563938,
+            "p": 0.1581800192445238,
+            "rho": 0.5909090909090909,
+            "p_rho": 0.05557560428877463,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "5980",
+            "r": 0.3823935128025031,
+            "p": 0.2457886125432478,
+            "rho": 0.4727272727272727,
+            "p_rho": 0.14199852020631992,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "6651",
+            "r": 0.44099596427575466,
+            "p": 0.174560604139198,
+            "rho": 0.5454545454545455,
+            "p_rho": 0.08265095734417506,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "7889",
+            "r": 0.5088122748519829,
+            "p": 0.10996440444625635,
+            "rho": 0.6000000000000001,
+            "p_rho": 0.05100326070695074,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "1840",
+            "r": 0.4702826225729985,
+            "p": 0.14435926188573348,
+            "rho": 0.5363636363636364,
+            "p_rho": 0.08895341813596276,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "3828",
+            "r": 0.42438625919924444,
+            "p": 0.1932800519269743,
+            "rho": 0.4727272727272727,
+            "p_rho": 0.14199852020631992,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "7198",
+            "r": 0.4491168770196037,
+            "p": 0.16582893918591093,
+            "rho": 0.5454545454545455,
+            "p_rho": 0.08265095734417506,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": false
+          }
+        ]
+      },
+      "bootstrap": {
+        "n_valid_resamples": 10000,
+        "ci_95_low": 0.13995215543918343,
+        "ci_95_high": 0.8363930655305947,
+        "n_resamples_requested": 10000
+      },
+      "description": "bridge vs stretched (vertex-based method distortion)",
+      "x_key": "bridge_edges_per_m",
+      "y_key": "stretched_edges_pct"
+    },
+    "bridge_edges_per_m__vs__jump_cells": {
+      "n": 12,
+      "pearson_r": 0.8485044746056061,
+      "pearson_p": 0.00048452986681483924,
+      "spearman_rho": 0.6573426573426573,
+      "spearman_p": 0.020185498509854096,
+      "leave_one_out": {
+        "pearson_r_range": [
+          0.774910109426199,
+          0.8734053812343459
+        ],
+        "spearman_rho_range": [
+          0.5545454545454546,
+          0.7636363636363637
+        ],
+        "per_dataset": [
+          {
+            "dropped": "787",
+            "r": 0.8637375101646199,
+            "p": 0.0006097477748310184,
+            "rho": 0.6090909090909091,
+            "p_rho": 0.04669570935409886,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "518",
+            "r": 0.8734053812343459,
+            "p": 0.0004442688736507507,
+            "rho": 0.7545454545454545,
+            "p_rho": 0.00728204100842914,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "2320",
+            "r": 0.8639431712393774,
+            "p": 0.0006058052493373762,
+            "rho": 0.6454545454545455,
+            "p_rho": 0.03196279932801745,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "3114",
+            "r": 0.8680894930630404,
+            "p": 0.000530349466166338,
+            "rho": 0.7636363636363637,
+            "p_rho": 0.006233059747904751,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "4371",
+            "r": 0.8459022787896293,
+            "p": 0.0010323268518433527,
+            "rho": 0.5727272727272729,
+            "p_rho": 0.06554305260101842,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": true
+          },
+          {
+            "dropped": "563",
+            "r": 0.8441107822885067,
+            "p": 0.0010844876124937273,
+            "rho": 0.6727272727272727,
+            "p_rho": 0.023313039833185972,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "5980",
+            "r": 0.8705391397913468,
+            "p": 0.0004892480553749195,
+            "rho": 0.5727272727272729,
+            "p_rho": 0.06554305260101842,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": true
+          },
+          {
+            "dropped": "6651",
+            "r": 0.843481434016874,
+            "p": 0.0011032734981940564,
+            "rho": 0.6818181818181819,
+            "p_rho": 0.020842853610945056,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "7889",
+            "r": 0.8413997569961101,
+            "p": 0.0011671570428621605,
+            "rho": 0.7272727272727273,
+            "p_rho": 0.011204967253592057,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "1840",
+            "r": 0.774910109426199,
+            "p": 0.0050915970795891155,
+            "rho": 0.5545454545454546,
+            "p_rho": 0.0766523333397825,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": true
+          },
+          {
+            "dropped": "3828",
+            "r": 0.8356565820241236,
+            "p": 0.001357839771753381,
+            "rho": 0.5818181818181819,
+            "p_rho": 0.06041989621564832,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": true
+          },
+          {
+            "dropped": "7198",
+            "r": 0.8465282739665376,
+            "p": 0.0010145530864400353,
+            "rho": 0.7000000000000001,
+            "p_rho": 0.01647097883651441,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": false
+          }
+        ]
+      },
+      "bootstrap": {
+        "n_valid_resamples": 10000,
+        "ci_95_low": 0.5657275640397134,
+        "ci_95_high": 0.9484300908926205,
+        "n_resamples_requested": 10000
+      },
+      "description": "bridge vs jump count (RQ3 batch validation)",
+      "x_key": "bridge_edges_per_m",
+      "y_key": "jump_cells"
+    },
+    "bridge_edges_per_m__vs__jump_pct": {
+      "n": 12,
+      "pearson_r": 0.7936121975885712,
+      "pearson_p": 0.0020612565892354157,
+      "spearman_rho": 0.5594405594405596,
+      "spearman_p": 0.05858947538856762,
+      "leave_one_out": {
+        "pearson_r_range": [
+          0.6718630765808815,
+          0.8356973936460409
+        ],
+        "spearman_rho_range": [
+          0.4272727272727273,
+          0.7181818181818183
+        ],
+        "per_dataset": [
+          {
+            "dropped": "787",
+            "r": 0.8206876397859613,
+            "p": 0.0019645701547319153,
+            "rho": 0.5272727272727273,
+            "p_rho": 0.09556521835315422,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "518",
+            "r": 0.8255290465729698,
+            "p": 0.0017498363037356506,
+            "rho": 0.6454545454545455,
+            "p_rho": 0.03196279932801745,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": true
+          },
+          {
+            "dropped": "2320",
+            "r": 0.8104992824711169,
+            "p": 0.0024801063443223663,
+            "rho": 0.5363636363636364,
+            "p_rho": 0.08895341813596276,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "3114",
+            "r": 0.829875536095628,
+            "p": 0.0015724651082415638,
+            "rho": 0.7181818181818183,
+            "p_rho": 0.01279959806885844,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": true
+          },
+          {
+            "dropped": "4371",
+            "r": 0.7636998306384614,
+            "p": 0.0062261516691801775,
+            "rho": 0.44545454545454555,
+            "p_rho": 0.16973260492681172,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "563",
+            "r": 0.787847831783042,
+            "p": 0.003980323720333258,
+            "rho": 0.5636363636363637,
+            "p_rho": 0.07095173447637536,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "5980",
+            "r": 0.8356973936460409,
+            "p": 0.0013564074612114128,
+            "rho": 0.5181818181818182,
+            "p_rho": 0.10249153979096381,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "6651",
+            "r": 0.7863844273191564,
+            "p": 0.004096048371053377,
+            "rho": 0.5818181818181819,
+            "p_rho": 0.06041989621564832,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "7889",
+            "r": 0.7834877041997128,
+            "p": 0.0043324303494736175,
+            "rho": 0.6181818181818182,
+            "p_rho": 0.042645569805326695,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": true
+          },
+          {
+            "dropped": "1840",
+            "r": 0.6718630765808815,
+            "p": 0.02355818318396824,
+            "rho": 0.4272727272727273,
+            "p_rho": 0.189943724965427,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "3828",
+            "r": 0.782640551260319,
+            "p": 0.004403425661348583,
+            "rho": 0.46363636363636374,
+            "p_rho": 0.15090149929248603,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "7198",
+            "r": 0.7906892808191692,
+            "p": 0.0037625534122071314,
+            "rho": 0.6181818181818182,
+            "p_rho": 0.042645569805326695,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": true
+          }
+        ]
+      },
+      "bootstrap": {
+        "n_valid_resamples": 10000,
+        "ci_95_low": 0.3474688413337674,
+        "ci_95_high": 0.9382611916554444,
+        "n_resamples_requested": 10000
+      },
+      "description": "bridge vs jump % (A2: normalised by valid_cells)",
+      "x_key": "bridge_edges_per_m",
+      "y_key": "jump_pct"
+    },
+    "bridge_edges_per_m__vs__xsec_mean_diff_pct": {
+      "n": 12,
+      "pearson_r": 0.5964919016930841,
+      "pearson_p": 0.040630434860934136,
+      "spearman_rho": 0.49650349650349657,
+      "spearman_p": 0.10060263183225482,
+      "leave_one_out": {
+        "pearson_r_range": [
+          0.5452774063214566,
+          0.6577270835807515
+        ],
+        "spearman_rho_range": [
+          0.4000000000000001,
+          0.5818181818181819
+        ],
+        "per_dataset": [
+          {
+            "dropped": "787",
+            "r": 0.6577270835807515,
+            "p": 0.02783215523954348,
+            "rho": 0.5636363636363637,
+            "p_rho": 0.07095173447637536,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "518",
+            "r": 0.6222770830271246,
+            "p": 0.040903146391685075,
+            "rho": 0.5818181818181819,
+            "p_rho": 0.06041989621564832,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "2320",
+            "r": 0.5765083110546161,
+            "p": 0.06337795363499114,
+            "rho": 0.5,
+            "p_rho": 0.11730680301423815,
+            "pearson_sign_or_sig_flip": true,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "3114",
+            "r": 0.6316886707414461,
+            "p": 0.037087066533465204,
+            "rho": 0.5454545454545455,
+            "p_rho": 0.08265095734417506,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "4371",
+            "r": 0.5452774063214566,
+            "p": 0.0827708418485428,
+            "rho": 0.4000000000000001,
+            "p_rho": 0.22286835013352002,
+            "pearson_sign_or_sig_flip": true,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "563",
+            "r": 0.6017374721941195,
+            "p": 0.050159748929752876,
+            "rho": 0.5090909090909091,
+            "p_rho": 0.1097372322416564,
+            "pearson_sign_or_sig_flip": true,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "5980",
+            "r": 0.5479589250010579,
+            "p": 0.08096836530937218,
+            "rho": 0.4000000000000001,
+            "p_rho": 0.22286835013352002,
+            "pearson_sign_or_sig_flip": true,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "6651",
+            "r": 0.5779195789600305,
+            "p": 0.06258239627298215,
+            "rho": 0.5181818181818182,
+            "p_rho": 0.10249153979096381,
+            "pearson_sign_or_sig_flip": true,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "7889",
+            "r": 0.5726743101336222,
+            "p": 0.06557372974835447,
+            "rho": 0.5454545454545455,
+            "p_rho": 0.08265095734417506,
+            "pearson_sign_or_sig_flip": true,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "1840",
+            "r": 0.6495444966551298,
+            "p": 0.03054146179260957,
+            "rho": 0.4000000000000001,
+            "p_rho": 0.22286835013352002,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "3828",
+            "r": 0.561232173413172,
+            "p": 0.07243067253339257,
+            "rho": 0.4000000000000001,
+            "p_rho": 0.22286835013352002,
+            "pearson_sign_or_sig_flip": true,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "7198",
+            "r": 0.6321523589997451,
+            "p": 0.0369057278727664,
+            "rho": 0.5272727272727273,
+            "p_rho": 0.09556521835315422,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": false
+          }
+        ]
+      },
+      "bootstrap": {
+        "n_valid_resamples": 10000,
+        "ci_95_low": 0.2521591587585286,
+        "ci_95_high": 0.8400479800021505,
+        "n_resamples_requested": 10000
+      },
+      "description": "bridge vs cross-sectional disagreement",
+      "x_key": "bridge_edges_per_m",
+      "y_key": "xsec_mean_diff_pct"
+    },
+    "ray_miss_pct__vs__xsec_mean_diff_pct": {
+      "n": 12,
+      "pearson_r": -0.16755707690515909,
+      "pearson_p": 0.6027034108560262,
+      "spearman_rho": -0.09090909090909093,
+      "spearman_p": 0.7787253962454419,
+      "leave_one_out": {
+        "pearson_r_range": [
+          -0.4441430565547696,
+          -0.05236691861051736
+        ],
+        "spearman_rho_range": [
+          -0.41818181818181827,
+          0.0
+        ],
+        "per_dataset": [
+          {
+            "dropped": "787",
+            "r": -0.13015370686959118,
+            "p": 0.7028880628768606,
+            "rho": -0.018181818181818184,
+            "p_rho": 0.9576852410216187,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "518",
+            "r": -0.4441430565547696,
+            "p": 0.1711441310445803,
+            "rho": -0.41818181818181827,
+            "p_rho": 0.20057021703405067,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "2320",
+            "r": -0.08644574203419782,
+            "p": 0.8004810850223923,
+            "rho": -0.02727272727272728,
+            "p_rho": 0.9365584481926122,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "3114",
+            "r": -0.15647205309285844,
+            "p": 0.6459167630069078,
+            "rho": -0.10000000000000002,
+            "p_rho": 0.7698749998921366,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "4371",
+            "r": -0.08083809400216267,
+            "p": 0.8132198540490851,
+            "rho": -0.06363636363636364,
+            "p_rho": 0.8525390725425217,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "563",
+            "r": -0.16631069148656386,
+            "p": 0.6250320329143338,
+            "rho": 0.0,
+            "p_rho": 1.0,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": true
+          },
+          {
+            "dropped": "5980",
+            "r": -0.418744061196464,
+            "p": 0.19990290341967826,
+            "rho": -0.3545454545454546,
+            "p_rho": 0.2846927409558867,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "6651",
+            "r": -0.14493488234767204,
+            "p": 0.6707015862085308,
+            "rho": 0.0,
+            "p_rho": 1.0,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": true
+          },
+          {
+            "dropped": "7889",
+            "r": -0.07570629499294286,
+            "p": 0.8249134280041276,
+            "rho": -0.018181818181818184,
+            "p_rho": 0.9576852410216187,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "1840",
+            "r": -0.13891007395384802,
+            "p": 0.6837642603526829,
+            "rho": -0.06363636363636364,
+            "p_rho": 0.8525390725425217,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "3828",
+            "r": -0.05236691861051736,
+            "p": 0.8784681111969335,
+            "rho": -0.009090909090909092,
+            "p_rho": 0.9788365001441937,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "7198",
+            "r": -0.16275488169428184,
+            "p": 0.6325524705392833,
+            "rho": -0.03636363636363637,
+            "p_rho": 0.9154683168905347,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": false
+          }
+        ]
+      },
+      "bootstrap": {
+        "n_valid_resamples": 10000,
+        "ci_95_low": -0.8477199841710499,
+        "ci_95_high": 0.456476062314925,
+        "n_resamples_requested": 10000
+      },
+      "description": "ray-completeness vs cross-sectional disagreement",
+      "x_key": "ray_miss_pct",
+      "y_key": "xsec_mean_diff_pct"
+    },
+    "bridge_edges_per_m__vs__sato_spike_pct": {
+      "n": 12,
+      "pearson_r": 0.03172840499461119,
+      "pearson_p": 0.9220230889151706,
+      "spearman_rho": 0.08391608391608392,
+      "spearman_p": 0.7954145018538977,
+      "leave_one_out": {
+        "pearson_r_range": [
+          -0.09846752258225497,
+          0.242749573022214
+        ],
+        "spearman_rho_range": [
+          -0.045454545454545456,
+          0.26363636363636367
+        ],
+        "per_dataset": [
+          {
+            "dropped": "787",
+            "r": 0.004242299879317568,
+            "p": 0.9901232446976317,
+            "rho": 0.045454545454545456,
+            "p_rho": 0.8944269969053026,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "518",
+            "r": -0.014795698230452542,
+            "p": 0.965561311891621,
+            "rho": 0.13636363636363638,
+            "p_rho": 0.689309020586362,
+            "pearson_sign_or_sig_flip": true,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "2320",
+            "r": -0.04790131168924261,
+            "p": 0.8887737458176017,
+            "rho": 0.06363636363636364,
+            "p_rho": 0.8525390725425217,
+            "pearson_sign_or_sig_flip": true,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "3114",
+            "r": 0.032835525331592647,
+            "p": 0.9236481031849902,
+            "rho": 0.07272727272727274,
+            "p_rho": 0.8317164053813368,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "4371",
+            "r": -0.014455180081211758,
+            "p": 0.9663535160600596,
+            "rho": 0.018181818181818184,
+            "p_rho": 0.9576852410216187,
+            "pearson_sign_or_sig_flip": true,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "563",
+            "r": 0.10956825844219166,
+            "p": 0.7484430310163832,
+            "rho": 0.13636363636363638,
+            "p_rho": 0.689309020586362,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "5980",
+            "r": -0.09846752258225497,
+            "p": 0.773321461159659,
+            "rho": -0.045454545454545456,
+            "p_rho": 0.8944269969053026,
+            "pearson_sign_or_sig_flip": true,
+            "spearman_sign_or_sig_flip": true
+          },
+          {
+            "dropped": "6651",
+            "r": 0.018464957158502188,
+            "p": 0.9570268085122972,
+            "rho": 0.07272727272727274,
+            "p_rho": 0.8317164053813368,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "7889",
+            "r": 0.11739985453762702,
+            "p": 0.7310184674288953,
+            "rho": 0.10000000000000002,
+            "p_rho": 0.7698749998921366,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "1840",
+            "r": 0.242749573022214,
+            "p": 0.47200163719266014,
+            "rho": 0.26363636363636367,
+            "p_rho": 0.4334407376116145,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "3828",
+            "r": 0.11635431127909951,
+            "p": 0.7333383008187666,
+            "rho": 0.16363636363636366,
+            "p_rho": 0.6306852146425357,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "7198",
+            "r": -0.060729679610188686,
+            "p": 0.8592152808740225,
+            "rho": -0.02727272727272728,
+            "p_rho": 0.9365584481926122,
+            "pearson_sign_or_sig_flip": true,
+            "spearman_sign_or_sig_flip": true
+          }
+        ]
+      }
+    },
+    "bridge_edges_per_m__vs__per_angle_gt2mm_pct": {
+      "n": 12,
+      "pearson_r": 0.4592419967673844,
+      "pearson_p": 0.1331275644244095,
+      "spearman_rho": 0.4378290427114664,
+      "spearman_p": 0.15458641247553007,
+      "leave_one_out": {
+        "pearson_r_range": [
+          0.3089378025210444,
+          0.6107391980492756
+        ],
+        "spearman_rho_range": [
+          0.2961283309258334,
+          0.5877008413758847
+        ],
+        "per_dataset": [
+          {
+            "dropped": "787",
+            "r": 0.530354712469616,
+            "p": 0.09328870922661306,
+            "rho": 0.5545454545454546,
+            "p_rho": 0.0766523333397825,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "518",
+            "r": 0.45484879093462105,
+            "p": 0.1598314710837978,
+            "rho": 0.5545454545454546,
+            "p_rho": 0.0766523333397825,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "2320",
+            "r": 0.4345958847061381,
+            "p": 0.18163644317790525,
+            "rho": 0.41457966329616674,
+            "p_rho": 0.20487715111917146,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "3114",
+            "r": 0.43359089699934406,
+            "p": 0.18276314896321724,
+            "rho": 0.41457966329616674,
+            "p_rho": 0.20487715111917146,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "4371",
+            "r": 0.3089378025210444,
+            "p": 0.35527931788288786,
+            "rho": 0.2961283309258334,
+            "p_rho": 0.376591859269915,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "563",
+            "r": 0.4668493095297615,
+            "p": 0.14771614415852385,
+            "rho": 0.4601378680539873,
+            "p_rho": 0.15441839412466296,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "5980",
+            "r": 0.4119158641980498,
+            "p": 0.20809732452803878,
+            "rho": 0.350798176635218,
+            "p_rho": 0.29017357578118624,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "6651",
+            "r": 0.42534019283737795,
+            "p": 0.1921735674419508,
+            "rho": 0.41457966329616674,
+            "p_rho": 0.20487715111917146,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "7889",
+            "r": 0.4522150399586854,
+            "p": 0.16257026841655772,
+            "rho": 0.43280294519929496,
+            "p_rho": 0.183649498353882,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "1840",
+            "r": 0.49684927603621487,
+            "p": 0.12000660771132121,
+            "rho": 0.3690214585383462,
+            "p_rho": 0.2640660487239563,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "3828",
+            "r": 0.47874200315646254,
+            "p": 0.1362942645406127,
+            "rho": 0.3599098175867821,
+            "p_rho": 0.276947700273761,
+            "pearson_sign_or_sig_flip": false,
+            "spearman_sign_or_sig_flip": false
+          },
+          {
+            "dropped": "7198",
+            "r": 0.6107391980492756,
+            "p": 0.045942485603599995,
+            "rho": 0.5877008413758847,
+            "p_rho": 0.0572537780469472,
+            "pearson_sign_or_sig_flip": true,
+            "spearman_sign_or_sig_flip": false
+          }
+        ]
+      }
+    }
+  },
+  "subgroup": {
+    "group": "residue-fused",
+    "n": 10,
+    "pairs": {
+      "bridge_edges_per_m__vs__xsec_mean_diff_pct": {
+        "n": 10,
+        "pearson_r": 0.7146012461105186,
+        "pearson_p": 0.02021910256434783,
+        "spearman_rho": 0.6727272727272726,
+        "spearman_p": 0.0330412225454377,
+        "leave_one_out": {
+          "pearson_r_range": [
+            0.6663044146157483,
+            0.8455068668683874
+          ],
+          "spearman_rho_range": [
+            0.6166666666666666,
+            0.75
+          ],
+          "per_dataset": [
+            {
+              "dropped": "2320",
+              "r": 0.6663044146157483,
+              "p": 0.05003718462225976,
+              "rho": 0.6166666666666666,
+              "p_rho": 0.07692880993776309,
+              "pearson_sign_or_sig_flip": true,
+              "spearman_sign_or_sig_flip": true
+            },
+            {
+              "dropped": "3114",
+              "r": 0.7329500696599897,
+              "p": 0.024667733452490143,
+              "rho": 0.7,
+              "p_rho": 0.03576957497026169,
+              "pearson_sign_or_sig_flip": false,
+              "spearman_sign_or_sig_flip": false
+            },
+            {
+              "dropped": "4371",
+              "r": 0.6826550898374436,
+              "p": 0.042729542171636346,
+              "rho": 0.65,
+              "p_rho": 0.05807305801714865,
+              "pearson_sign_or_sig_flip": false,
+              "spearman_sign_or_sig_flip": true
+            },
+            {
+              "dropped": "563",
+              "r": 0.7093510970891331,
+              "p": 0.03234366221989468,
+              "rho": 0.65,
+              "p_rho": 0.05807305801714865,
+              "pearson_sign_or_sig_flip": false,
+              "spearman_sign_or_sig_flip": true
+            },
+            {
+              "dropped": "5980",
+              "r": 0.6808253440790486,
+              "p": 0.04351076232731225,
+              "rho": 0.65,
+              "p_rho": 0.05807305801714865,
+              "pearson_sign_or_sig_flip": false,
+              "spearman_sign_or_sig_flip": true
+            },
+            {
+              "dropped": "6651",
+              "r": 0.6920881794285745,
+              "p": 0.038845288220030645,
+              "rho": 0.65,
+              "p_rho": 0.05807305801714865,
+              "pearson_sign_or_sig_flip": false,
+              "spearman_sign_or_sig_flip": true
+            },
+            {
+              "dropped": "7889",
+              "r": 0.7235599384229183,
+              "p": 0.027559516909558657,
+              "rho": 0.75,
+              "p_rho": 0.019942126131992522,
+              "pearson_sign_or_sig_flip": false,
+              "spearman_sign_or_sig_flip": false
+            },
+            {
+              "dropped": "1840",
+              "r": 0.8455068668683874,
+              "p": 0.0040890163513163805,
+              "rho": 0.65,
+              "p_rho": 0.05807305801714865,
+              "pearson_sign_or_sig_flip": false,
+              "spearman_sign_or_sig_flip": true
+            },
+            {
+              "dropped": "3828",
+              "r": 0.7236374923397763,
+              "p": 0.027534766956027336,
+              "rho": 0.65,
+              "p_rho": 0.05807305801714865,
+              "pearson_sign_or_sig_flip": false,
+              "spearman_sign_or_sig_flip": true
+            },
+            {
+              "dropped": "7198",
+              "r": 0.7351564720997521,
+              "p": 0.024018561206713248,
+              "rho": 0.6666666666666667,
+              "p_rho": 0.04986723056888511,
+              "pearson_sign_or_sig_flip": false,
+              "spearman_sign_or_sig_flip": false
+            }
+          ]
+        }
+      },
+      "bridge_edges_per_m__vs__jump_pct": {
+        "n": 10,
+        "pearson_r": 0.8647550108964539,
+        "pearson_p": 0.0012393086592832308,
+        "spearman_rho": 0.6363636363636362,
+        "spearman_p": 0.04791172612997547,
+        "leave_one_out": {
+          "pearson_r_range": [
+            0.7810781610523662,
+            0.9347907754324499
+          ],
+          "spearman_rho_range": [
+            0.5,
+            0.7999999999999999
+          ],
+          "per_dataset": [
+            {
+              "dropped": "2320",
+              "r": 0.8668729057886453,
+              "p": 0.002482437390851226,
+              "rho": 0.6,
+              "p_rho": 0.0876228290414024,
+              "pearson_sign_or_sig_flip": false,
+              "spearman_sign_or_sig_flip": true
+            },
+            {
+              "dropped": "3114",
+              "r": 0.8893510095727837,
+              "p": 0.001329488005701867,
+              "rho": 0.7999999999999999,
+              "p_rho": 0.00962792472537983,
+              "pearson_sign_or_sig_flip": false,
+              "spearman_sign_or_sig_flip": false
+            },
+            {
+              "dropped": "4371",
+              "r": 0.847071168821978,
+              "p": 0.003952285261539069,
+              "rho": 0.5333333333333333,
+              "p_rho": 0.13922686754397814,
+              "pearson_sign_or_sig_flip": false,
+              "spearman_sign_or_sig_flip": true
+            },
+            {
+              "dropped": "563",
+              "r": 0.8611452969569345,
+              "p": 0.002860000767757994,
+              "rho": 0.6166666666666666,
+              "p_rho": 0.07692880993776309,
+              "pearson_sign_or_sig_flip": false,
+              "spearman_sign_or_sig_flip": true
+            },
+            {
+              "dropped": "5980",
+              "r": 0.9347907754324499,
+              "p": 0.00021865472575452506,
+              "rho": 0.6333333333333333,
+              "p_rho": 0.06708578689234565,
+              "pearson_sign_or_sig_flip": false,
+              "spearman_sign_or_sig_flip": true
+            },
+            {
+              "dropped": "6651",
+              "r": 0.8555339363803391,
+              "p": 0.0032665489771459516,
+              "rho": 0.6666666666666667,
+              "p_rho": 0.04986723056888511,
+              "pearson_sign_or_sig_flip": false,
+              "spearman_sign_or_sig_flip": false
+            },
+            {
+              "dropped": "7889",
+              "r": 0.8656162118501236,
+              "p": 0.002562138477608533,
+              "rho": 0.7166666666666667,
+              "p_rho": 0.02981803569584528,
+              "pearson_sign_or_sig_flip": false,
+              "spearman_sign_or_sig_flip": false
+            },
+            {
+              "dropped": "1840",
+              "r": 0.7810781610523662,
+              "p": 0.012951118825576346,
+              "rho": 0.5,
+              "p_rho": 0.17047066078705375,
+              "pearson_sign_or_sig_flip": false,
+              "spearman_sign_or_sig_flip": true
+            },
+            {
+              "dropped": "3828",
+              "r": 0.8638670039120402,
+              "p": 0.0026759896245112974,
+              "rho": 0.5666666666666667,
+              "p_rho": 0.11163298761149111,
+              "pearson_sign_or_sig_flip": false,
+              "spearman_sign_or_sig_flip": true
+            },
+            {
+              "dropped": "7198",
+              "r": 0.8581824130816783,
+              "p": 0.003070028925756756,
+              "rho": 0.6666666666666667,
+              "p_rho": 0.04986723056888511,
+              "pearson_sign_or_sig_flip": false,
+              "spearman_sign_or_sig_flip": false
+            }
+          ]
+        }
+      },
+      "bridge_edges_per_m__vs__per_angle_gt2mm_pct": {
+        "n": 10,
+        "pearson_r": 0.5442578659555701,
+        "pearson_p": 0.10384229119900823,
+        "spearman_rho": 0.709090909090909,
+        "spearman_p": 0.021665923367532435,
+        "leave_one_out": {
+          "pearson_r_range": [
+            0.42799700754701925,
+            0.7058835832236081
+          ],
+          "spearman_rho_range": [
+            0.65,
+            0.8666666666666667
+          ],
+          "per_dataset": [
+            {
+              "dropped": "2320",
+              "r": 0.48311808840284365,
+              "p": 0.1876954003126314,
+              "rho": 0.65,
+              "p_rho": 0.05807305801714865,
+              "pearson_sign_or_sig_flip": false,
+              "spearman_sign_or_sig_flip": true
+            },
+            {
+              "dropped": "3114",
+              "r": 0.5060001673625881,
+              "p": 0.1645756875626325,
+              "rho": 0.65,
+              "p_rho": 0.05807305801714865,
+              "pearson_sign_or_sig_flip": false,
+              "spearman_sign_or_sig_flip": true
+            },
+            {
+              "dropped": "4371",
+              "r": 0.42799700754701925,
+              "p": 0.2504617589661601,
+              "rho": 0.65,
+              "p_rho": 0.05807305801714865,
+              "pearson_sign_or_sig_flip": false,
+              "spearman_sign_or_sig_flip": true
+            },
+            {
+              "dropped": "563",
+              "r": 0.53990453653968,
+              "p": 0.1334997337559558,
+              "rho": 0.7,
+              "p_rho": 0.03576957497026169,
+              "pearson_sign_or_sig_flip": false,
+              "spearman_sign_or_sig_flip": false
+            },
+            {
+              "dropped": "5980",
+              "r": 0.5107781514624066,
+              "p": 0.15996663073907658,
+              "rho": 0.7166666666666667,
+              "p_rho": 0.02981803569584528,
+              "pearson_sign_or_sig_flip": false,
+              "spearman_sign_or_sig_flip": false
+            },
+            {
+              "dropped": "6651",
+              "r": 0.5022744672286107,
+              "p": 0.16822205404488189,
+              "rho": 0.65,
+              "p_rho": 0.05807305801714865,
+              "pearson_sign_or_sig_flip": false,
+              "spearman_sign_or_sig_flip": true
+            },
+            {
+              "dropped": "7889",
+              "r": 0.5246391692757346,
+              "p": 0.14702251905456185,
+              "rho": 0.6833333333333333,
+              "p_rho": 0.04244227208707231,
+              "pearson_sign_or_sig_flip": false,
+              "spearman_sign_or_sig_flip": false
+            },
+            {
+              "dropped": "1840",
+              "r": 0.6545086888204599,
+              "p": 0.055774630502260544,
+              "rho": 0.75,
+              "p_rho": 0.019942126131992522,
+              "pearson_sign_or_sig_flip": false,
+              "spearman_sign_or_sig_flip": false
+            },
+            {
+              "dropped": "3828",
+              "r": 0.5958642199645567,
+              "p": 0.09041044815040629,
+              "rho": 0.7,
+              "p_rho": 0.03576957497026169,
+              "pearson_sign_or_sig_flip": false,
+              "spearman_sign_or_sig_flip": false
+            },
+            {
+              "dropped": "7198",
+              "r": 0.7058835832236081,
+              "p": 0.033587913529346605,
+              "rho": 0.8666666666666667,
+              "p_rho": 0.0024953982859902053,
+              "pearson_sign_or_sig_flip": true,
+              "spearman_sign_or_sig_flip": false
+            }
+          ]
+        }
+      }
+    }
+  }
+}

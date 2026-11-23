@@ -1,0 +1,892 @@
+{
+  "@schema": "https://raw.githubusercontent.com/slicer/slicer/master/Modules/Loadable/Markups/Resources/Schema/markups-schema-v1.0.3.json#",
+  "markups": [
+    {
+      "type": "Fiducial",
+      "coordinateSystem": "RAS",
+      "coordinateUnits": "mm",
+      "controlPoints": [
+        {
+          "id": "1",
+          "label": "R6_origin1",
+          "position": [
+            -3.46,
+            -184.08,
+            -413.49
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "2",
+          "label": "R6_origin2",
+          "position": [
+            -2.82,
+            -184.78,
+            -413.2
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "3",
+          "label": "R6_hit1",
+          "position": [
+            -33.25,
+            -195.2,
+            -375.17
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "4",
+          "label": "R6_hit2",
+          "position": [
+            -15.41,
+            -190.38,
+            -395.95
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "5",
+          "label": "R8_origin1",
+          "position": [
+            1.49,
+            -190.03,
+            -411.61
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "6",
+          "label": "R8_origin2",
+          "position": [
+            1.97,
+            -190.88,
+            -411.4
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "7",
+          "label": "R8_hit1",
+          "position": [
+            -11.32,
+            -193.42,
+            -395.62
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "8",
+          "label": "R8_hit2",
+          "position": [
+            -29.01,
+            -198.33,
+            -373.32
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "9",
+          "label": "R19_origin1",
+          "position": [
+            -25.37,
+            -184.09,
+            -378.19
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "10",
+          "label": "R19_origin2",
+          "position": [
+            -25.37,
+            -184.09,
+            -378.19
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "11",
+          "label": "R19_hit1",
+          "position": [
+            19.22,
+            -163.52,
+            -384.59
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "12",
+          "label": "R19_hit2",
+          "position": [
+            -4.43,
+            -174.16,
+            -381.54
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "13",
+          "label": "R23_origin1",
+          "position": [
+            -19.78,
+            -170.62,
+            -363.58
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "14",
+          "label": "R23_origin2",
+          "position": [
+            -18.96,
+            -170.45,
+            -363.04
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "15",
+          "label": "R23_hit1",
+          "position": [
+            -11.5,
+            -178.2,
+            -373.97
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "16",
+          "label": "R23_hit2",
+          "position": [
+            -3.83,
+            -187.37,
+            -387.39
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "17",
+          "label": "R38_origin1",
+          "position": [
+            0.57,
+            -110.89,
+            -311.34
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "18",
+          "label": "R38_origin2",
+          "position": [
+            1.41,
+            -110.64,
+            -310.86
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "19",
+          "label": "R38_hit1",
+          "position": [
+            27.41,
+            -136.67,
+            -344.46
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "20",
+          "label": "R38_hit2",
+          "position": [
+            8.07,
+            -117.09,
+            -319.15
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "21",
+          "label": "R44_origin1",
+          "position": [
+            -101.82,
+            -183.8,
+            -238.84
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "22",
+          "label": "R44_origin2",
+          "position": [
+            -102.72,
+            -183.65,
+            -238.44
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "23",
+          "label": "R44_hit1",
+          "position": [
+            -107.6,
+            -180.85,
+            -252.89
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "24",
+          "label": "R44_hit2",
+          "position": [
+            -113.25,
+            -177.93,
+            -267.04
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "25",
+          "label": "R47_origin1",
+          "position": [
+            -132.01,
+            -157.6,
+            -233.07
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "26",
+          "label": "R47_origin2",
+          "position": [
+            -132.46,
+            -157.07,
+            -232.35
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "27",
+          "label": "R47_hit1",
+          "position": [
+            -128.03,
+            -167.0,
+            -223.72
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "28",
+          "label": "R47_hit2",
+          "position": [
+            -121.78,
+            -181.5,
+            -209.9
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "29",
+          "label": "R50_origin1",
+          "position": [
+            -137.29,
+            -150.85,
+            -222.01
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "30",
+          "label": "R50_origin2",
+          "position": [
+            -137.59,
+            -150.43,
+            -221.16
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "31",
+          "label": "R50_hit1",
+          "position": [
+            -132.55,
+            -163.4,
+            -214.25
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "32",
+          "label": "R50_hit2",
+          "position": [
+            -127.93,
+            -175.71,
+            -206.61
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "33",
+          "label": "R55_origin1",
+          "position": [
+            -103.58,
+            -139.39,
+            -64.78
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "34",
+          "label": "R55_origin2",
+          "position": [
+            -103.09,
+            -139.0,
+            -64.0
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "35",
+          "label": "R55_hit1",
+          "position": [
+            -106.8,
+            -128.24,
+            -68.33
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "36",
+          "label": "R55_hit2",
+          "position": [
+            -114.56,
+            -91.94,
+            -75.79
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "37",
+          "label": "R59_origin1",
+          "position": [
+            -103.63,
+            -111.7,
+            -76.24
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "38",
+          "label": "R59_origin2",
+          "position": [
+            -104.27,
+            -111.73,
+            -77.01
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "39",
+          "label": "R59_hit1",
+          "position": [
+            -90.95,
+            -110.72,
+            -86.77
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "40",
+          "label": "R59_hit2",
+          "position": [
+            -80.3,
+            -109.83,
+            -98.42
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "41",
+          "label": "R66_origin1",
+          "position": [
+            -107.32,
+            -120.26,
+            -132.73
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "42",
+          "label": "R66_origin2",
+          "position": [
+            -106.45,
+            -120.27,
+            -133.23
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "43",
+          "label": "R66_hit1",
+          "position": [
+            -92.23,
+            -127.13,
+            -106.48
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "44",
+          "label": "R66_hit2",
+          "position": [
+            -100.2,
+            -123.47,
+            -120.53
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "45",
+          "label": "R75_origin1",
+          "position": [
+            -89.42,
+            -109.51,
+            -136.44
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "46",
+          "label": "R75_origin2",
+          "position": [
+            -88.86,
+            -108.68,
+            -136.43
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "47",
+          "label": "R75_hit1",
+          "position": [
+            -97.27,
+            -104.4,
+            -123.21
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "48",
+          "label": "R75_hit2",
+          "position": [
+            -109.95,
+            -92.99,
+            -99.33
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "49",
+          "label": "R83_origin1",
+          "position": [
+            64.19,
+            -86.24,
+            -184.93
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "50",
+          "label": "R83_origin2",
+          "position": [
+            64.79,
+            -86.77,
+            -184.33
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "51",
+          "label": "R83_hit1",
+          "position": [
+            55.48,
+            -99.63,
+            -187.98
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "52",
+          "label": "R83_hit2",
+          "position": [
+            47.14,
+            -112.65,
+            -190.84
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "53",
+          "label": "R86_origin1",
+          "position": [
+            68.72,
+            -92.66,
+            -178.94
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "54",
+          "label": "R86_origin2",
+          "position": [
+            68.86,
+            -93.46,
+            -178.35
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "55",
+          "label": "R86_hit1",
+          "position": [
+            36.05,
+            -110.96,
+            -195.96
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "56",
+          "label": "R86_hit2",
+          "position": [
+            53.86,
+            -100.47,
+            -187.01
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "57",
+          "label": "R87_origin1",
+          "position": [
+            65.31,
+            -103.22,
+            -172.78
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "58",
+          "label": "R87_origin2",
+          "position": [
+            64.83,
+            -104.03,
+            -172.45
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "59",
+          "label": "R87_hit1",
+          "position": [
+            52.6,
+            -101.78,
+            -187.77
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "60",
+          "label": "R87_hit2",
+          "position": [
+            36.61,
+            -100.48,
+            -206.12
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "61",
+          "label": "R90_origin1",
+          "position": [
+            57.38,
+            -119.31,
+            -166.59
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "62",
+          "label": "R90_origin2",
+          "position": [
+            57.05,
+            -120.17,
+            -166.2
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "63",
+          "label": "R90_hit1",
+          "position": [
+            89.44,
+            -132.92,
+            -169.82
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "64",
+          "label": "R90_hit2",
+          "position": [
+            73.75,
+            -126.68,
+            -168.09
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "65",
+          "label": "R92_origin1",
+          "position": [
+            57.7,
+            -138.21,
+            -157.56
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "66",
+          "label": "R92_origin2",
+          "position": [
+            58.22,
+            -138.99,
+            -157.2
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "67",
+          "label": "R92_hit1",
+          "position": [
+            88.81,
+            -125.01,
+            -173.95
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "68",
+          "label": "R92_hit2",
+          "position": [
+            75.33,
+            -132.3,
+            -165.83
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "69",
+          "label": "R97_origin1",
+          "position": [
+            82.93,
+            -151.1,
+            -150.12
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "70",
+          "label": "R97_origin2",
+          "position": [
+            82.93,
+            -151.1,
+            -150.12
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "71",
+          "label": "R97_hit1",
+          "position": [
+            82.83,
+            -132.94,
+            -173.94
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "72",
+          "label": "R97_hit2",
+          "position": [
+            82.96,
+            -121.97,
+            -187.01
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "73",
+          "label": "R104_origin1",
+          "position": [
+            101.55,
+            -156.2,
+            -165.59
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "74",
+          "label": "R104_origin2",
+          "position": [
+            101.79,
+            -156.52,
+            -166.51
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "75",
+          "label": "R104_hit1",
+          "position": [
+            114.64,
+            -188.37,
+            -150.59
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "76",
+          "label": "R104_hit2",
+          "position": [
+            109.59,
+            -175.55,
+            -158.45
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "77",
+          "label": "R113_origin1",
+          "position": [
+            91.99,
+            -126.2,
+            -237.39
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "78",
+          "label": "R113_origin2",
+          "position": [
+            92.38,
+            -125.35,
+            -237.75
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "79",
+          "label": "R113_hit1",
+          "position": [
+            125.64,
+            -126.36,
+            -201.17
+          ],
+          "selected": true,
+          "visibility": true
+        },
+        {
+          "id": "80",
+          "label": "R113_hit2",
+          "position": [
+            105.69,
+            -124.71,
+            -224.05
+          ],
+          "selected": true,
+          "visibility": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "name": "787",
+    "n_verts": 839954,
+    "n_faces": 1679956,
+    "total_edges": 2519934,
+    "surface_area_m2": 0.3945,
+    "bridge_edge_count": 2203,
+    "bridge_edges_per_meter": 914.22,
+    "bridge_per_10k_edges": 8.742
+  },
+  {
+    "name": "518",
+    "n_verts": 343048,
+    "n_faces": 686092,
+    "total_edges": 1029138,
+    "surface_area_m2": 0.1646,
+    "bridge_edge_count": 708,
+    "bridge_edges_per_meter": 583.03,
+    "bridge_per_10k_edges": 6.88
+  },
+  {
+    "name": "2320",
+    "n_verts": 600965,
+    "n_faces": 1201996,
+    "total_edges": 1803006,
+    "surface_area_m2": 0.2476,
+    "bridge_edge_count": 15,
+    "bridge_edges_per_meter": 9.78,
+    "bridge_per_10k_edges": 0.083
+  },
+  {
+    "name": "3114",
+    "n_verts": 629928,
+    "n_faces": 1259864,
+    "total_edges": 1889811,
+    "surface_area_m2": 0.2588,
+    "bridge_edge_count": 547,
+    "bridge_edges_per_meter": 341.7,
+    "bridge_per_10k_edges": 2.894
+  },
+  {
+    "name": "4371",
+    "n_verts": 563572,
+    "n_faces": 1127206,
+    "total_edges": 1690825,
+    "surface_area_m2": 0.2315,
+    "bridge_edge_count": 2356,
+    "bridge_edges_per_meter": 1403.03,
+    "bridge_per_10k_edges": 13.934
+  },
+  {
+    "name": "563",
+    "n_verts": 565152,
+    "n_faces": 1130320,
+    "total_edges": 1695480,
+    "surface_area_m2": 0.2332,
+    "bridge_edge_count": 814,
+    "bridge_edges_per_meter": 472.97,
+    "bridge_per_10k_edges": 4.801
+  },
+  {
+    "name": "5980",
+    "n_verts": 656023,
+    "n_faces": 1312144,
+    "total_edges": 1968232,
+    "surface_area_m2": 0.3032,
+    "bridge_edge_count": 3058,
+    "bridge_edges_per_meter": 1290.42,
+    "bridge_per_10k_edges": 15.537
+  },
+  {
+    "name": "6651",
+    "n_verts": 612315,
+    "n_faces": 1224844,
+    "total_edges": 1837276,
+    "surface_area_m2": 0.2513,
+    "bridge_edge_count": 598,
+    "bridge_edges_per_meter": 348.99,
+    "bridge_per_10k_edges": 3.255
+  },
+  {
+    "name": "7889",
+    "n_verts": 561642,
+    "n_faces": 1123290,
+    "total_edges": 1684945,
+    "surface_area_m2": 0.2611,
+    "bridge_edge_count": 833,
+    "bridge_edges_per_meter": 412.95,
+    "bridge_per_10k_edges": 4.944
+  },
+  {
+    "name": "1840",
+    "n_verts": 845753,
+    "n_faces": 1691588,
+    "total_edges": 2537392,
+    "surface_area_m2": 0.3476,
+    "bridge_edge_count": 4314,
+    "bridge_edges_per_meter": 1787.53,
+    "bridge_per_10k_edges": 17.002
+  },
+  {
+    "name": "3828",
+    "n_verts": 560015,
+    "n_faces": 1120092,
+    "total_edges": 1680154,
+    "surface_area_m2": 0.2296,
+    "bridge_edge_count": 2080,
+    "bridge_edges_per_meter": 1229.87,
+    "bridge_per_10k_edges": 12.38
+  },
+  {
+    "name": "7198",
+    "n_verts": 624828,
+    "n_faces": 1249832,
+    "total_edges": 1874761,
+    "surface_area_m2": 0.2556,
+    "bridge_edge_count": 685,
+    "bridge_edges_per_meter": 392.05,
+    "bridge_per_10k_edges": 3.654
+  }
+]

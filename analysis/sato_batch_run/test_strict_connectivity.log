@@ -1,0 +1,52 @@
+
+============================================================
+Running strict-connectivity variant on 518
+============================================================
+  slice 0/1500  (0.3s elapsed)
+  slice 200/1500  (2.6s elapsed)
+  slice 400/1500  (5.3s elapsed)
+  slice 600/1500  (8.4s elapsed)
+  slice 800/1500  (11.0s elapsed)
+  slice 1000/1500  (12.9s elapsed)
+  slice 1200/1500  (16.3s elapsed)
+  slice 1400/1500  (20.1s elapsed)
+Done in 37.1s. Output shape (z,y,x): (1502, 339, 339), foreground voxels: 5054177
+{
+  "n_slices": 1500,
+  "n_spike_slices": 0,
+  "pct_spike_slices": 0.0,
+  "max_ratio": 1.44,
+  "mean_ratio": 0.99,
+  "name": "518"
+}
+
+============================================================
+Running strict-connectivity variant on 787
+============================================================
+  slice 0/2907  (0.2s elapsed)
+  slice 200/2907  (4.3s elapsed)
+  slice 400/2907  (7.8s elapsed)
+  slice 600/2907  (11.3s elapsed)
+  slice 800/2907  (14.9s elapsed)
+  slice 1000/2907  (18.5s elapsed)
+  slice 1200/2907  (21.1s elapsed)
+  slice 1400/2907  (24.3s elapsed)
+  slice 1600/2907  (26.9s elapsed)
+  slice 1800/2907  (30.5s elapsed)
+  slice 2000/2907  (34.2s elapsed)
+  slice 2200/2907  (38.3s elapsed)
+  slice 2400/2907  (42.3s elapsed)
+  slice 2600/2907  (46.5s elapsed)
+  slice 2800/2907  (51.0s elapsed)
+Done in 102.1s. Output shape (z,y,x): (2909, 393, 393), foreground voxels: 20766639
+{
+  "n_slices": 2907,
+  "n_spike_slices": 12,
+  "pct_spike_slices": 0.41,
+  "max_ratio": 1.69,
+  "mean_ratio": 0.99,
+  "name": "787"
+}
+
+Saved strict_connectivity_results.json
+EXIT: 0

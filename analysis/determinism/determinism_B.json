@@ -1,0 +1,20 @@
+{
+  "tag": "B",
+  "n_verts": 845753,
+  "n_faces": 1691588,
+  "n_arc_steps": 2412,
+  "arc_steps_hash": "b555bdc98f0a7b3cd206fbe76e6fe8f762d3279daa96e6eaaa52fa496d22a809",
+  "hit_distances_shape": [
+    2412,
+    360
+  ],
+  "hit_distances_hash": "e822399ab240f4bfe4ab7479a82060f989c1ad80139aa0d0fea0d527dedf9e94",
+  "hit_distances_nanmean": 22.647201720185112,
+  "hit_distances_nansum": 19609917.555885926,
+  "n_nan": 2433,
+  "final_max_ray_dist_mm": 90.0,
+  "adaptive_recast": true,
+  "bridge_edge_count": 4314,
+  "bridge_edge_count_uncapped": 4940,
+  "time_s": 1618.8
+}

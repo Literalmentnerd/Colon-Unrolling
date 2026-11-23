@@ -1,0 +1,142 @@
+{
+  "dataset": "787",
+  "mesh_upsample": 1,
+  "pos_error_metric": "distance from the recovered 3D point to the nearest voxel of that polyp's own labeled connected component (not the centroid) -- see module docstring for rationale",
+  "mean_radius_mm": 20.888,
+  "cut_angle_deg": 356.81,
+  "n_arc_steps": 2328,
+  "n_angle_steps": 360,
+  "final_max_ray_dist_mm": 50.0,
+  "adaptive_recast": false,
+  "n_polyps": 6,
+  "per_polyp": [
+    {
+      "polyp_index": 1,
+      "true_position": [
+        80.51,
+        30.938,
+        -348.6
+      ],
+      "recovered_position": [
+        78.084,
+        31.654,
+        -348.035
+      ],
+      "pos_error_mm": 0.6414,
+      "centroid_error_mm": 2.5926,
+      "true_radial_mm": 10.176,
+      "wall_hit_used_mm": 7.606,
+      "arc_snap_err_mm": 0.2164,
+      "angle_snap_err_deg": 0.1044
+    },
+    {
+      "polyp_index": 2,
+      "true_position": [
+        52.894,
+        17.188,
+        -365.4
+      ],
+      "recovered_position": [
+        50.468,
+        19.019,
+        -364.66
+      ],
+      "pos_error_mm": 0.7186,
+      "centroid_error_mm": 3.1287,
+      "true_radial_mm": 6.711,
+      "wall_hit_used_mm": 3.584,
+      "arc_snap_err_mm": 0.0292,
+      "angle_snap_err_deg": 0.2983
+    },
+    {
+      "polyp_index": 3,
+      "true_position": [
+        46.878,
+        73.79,
+        -348.6
+      ],
+      "recovered_position": [
+        45.911,
+        76.224,
+        -346.319
+      ],
+      "pos_error_mm": 0.9135,
+      "centroid_error_mm": 3.4736,
+      "true_radial_mm": 14.1,
+      "wall_hit_used_mm": 10.653,
+      "arc_snap_err_mm": 0.2593,
+      "angle_snap_err_deg": 0.2224
+    },
+    {
+      "polyp_index": 4,
+      "true_position": [
+        33.988,
+        23.086,
+        -383.8
+      ],
+      "recovered_position": [
+        30.544,
+        23.011,
+        -382.043
+      ],
+      "pos_error_mm": 1.3044,
+      "centroid_error_mm": 3.8664,
+      "true_radial_mm": 11.161,
+      "wall_hit_used_mm": 7.312,
+      "arc_snap_err_mm": 0.1492,
+      "angle_snap_err_deg": 0.2224
+    },
+    {
+      "polyp_index": 5,
+      "true_position": [
+        -8.122,
+        36.094,
+        -348.6
+      ],
+      "recovered_position": [
+        -10.361,
+        36.761,
+        -348.911
+      ],
+      "pos_error_mm": 0.4985,
+      "centroid_error_mm": 2.3573,
+      "true_radial_mm": 17.182,
+      "wall_hit_used_mm": 14.919,
+      "arc_snap_err_mm": 0.246,
+      "angle_snap_err_deg": 0.4252
+    },
+    {
+      "polyp_index": 6,
+      "true_position": [
+        -22.731,
+        -75.625,
+        -365.4
+      ],
+      "recovered_position": [
+        -25.535,
+        -74.862,
+        -364.639
+      ],
+      "pos_error_mm": 0.7967,
+      "centroid_error_mm": 3.0036,
+      "true_radial_mm": 9.638,
+      "wall_hit_used_mm": 6.679,
+      "arc_snap_err_mm": 0.3768,
+      "angle_snap_err_deg": 0.3984
+    }
+  ],
+  "pos_error_mm_summary": {
+    "mean": 0.8122,
+    "median": 0.7577,
+    "min": 0.4985,
+    "max": 1.3044,
+    "std": 0.2547
+  },
+  "centroid_error_mm_summary": {
+    "mean": 3.0704,
+    "median": 3.0661,
+    "min": 2.3573,
+    "max": 3.8664,
+    "std": 0.5068
+  }
+}

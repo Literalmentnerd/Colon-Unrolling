@@ -1,0 +1,110 @@
+[
+  {
+    "name": "787",
+    "median_edge_mm": 0.806,
+    "n_edges": 5039868,
+    "n_stretched": 46754,
+    "pct_stretched": 0.9277,
+    "stretched_per_m": 19872.13,
+    "arc_len_mm": 2352.7
+  },
+  {
+    "name": "518",
+    "median_edge_mm": 0.849,
+    "n_edges": 2058276,
+    "n_stretched": 3738,
+    "pct_stretched": 0.1816,
+    "stretched_per_m": 3096.35,
+    "arc_len_mm": 1207.2
+  },
+  {
+    "name": "2320",
+    "median_edge_mm": 0.765,
+    "n_edges": 3605988,
+    "n_stretched": 33416,
+    "pct_stretched": 0.9267,
+    "stretched_per_m": 21794.05,
+    "arc_len_mm": 1533.3
+  },
+  {
+    "name": "3114",
+    "median_edge_mm": 0.756,
+    "n_edges": 3779592,
+    "n_stretched": 35884,
+    "pct_stretched": 0.9494,
+    "stretched_per_m": 22416.15,
+    "arc_len_mm": 1600.8
+  },
+  {
+    "name": "4371",
+    "median_edge_mm": 0.742,
+    "n_edges": 3381618,
+    "n_stretched": 38732,
+    "pct_stretched": 1.1454,
+    "stretched_per_m": 23065.45,
+    "arc_len_mm": 1679.2
+  },
+  {
+    "name": "563",
+    "median_edge_mm": 0.761,
+    "n_edges": 3390960,
+    "n_stretched": 29636,
+    "pct_stretched": 0.874,
+    "stretched_per_m": 17219.95,
+    "arc_len_mm": 1721.0
+  },
+  {
+    "name": "5980",
+    "median_edge_mm": 0.762,
+    "n_edges": 3936432,
+    "n_stretched": 52894,
+    "pct_stretched": 1.3437,
+    "stretched_per_m": 22320.29,
+    "arc_len_mm": 2369.8
+  },
+  {
+    "name": "6651",
+    "median_edge_mm": 0.767,
+    "n_edges": 3674532,
+    "n_stretched": 29210,
+    "pct_stretched": 0.7949,
+    "stretched_per_m": 17046.72,
+    "arc_len_mm": 1713.5
+  },
+  {
+    "name": "7889",
+    "median_edge_mm": 0.802,
+    "n_edges": 3369870,
+    "n_stretched": 36392,
+    "pct_stretched": 1.0799,
+    "stretched_per_m": 18041.08,
+    "arc_len_mm": 2017.2
+  },
+  {
+    "name": "1840",
+    "median_edge_mm": 0.753,
+    "n_edges": 5074764,
+    "n_stretched": 54402,
+    "pct_stretched": 1.072,
+    "stretched_per_m": 22541.8,
+    "arc_len_mm": 2413.4
+  },
+  {
+    "name": "3828",
+    "median_edge_mm": 0.742,
+    "n_edges": 3360276,
+    "n_stretched": 38894,
+    "pct_stretched": 1.1575,
+    "stretched_per_m": 22997.36,
+    "arc_len_mm": 1691.2
+  },
+  {
+    "name": "7198",
+    "median_edge_mm": 0.768,
+    "n_edges": 3749496,
+    "n_stretched": 31218,
+    "pct_stretched": 0.8326,
+    "stretched_per_m": 17867.37,
+    "arc_len_mm": 1747.2
+  }
+]

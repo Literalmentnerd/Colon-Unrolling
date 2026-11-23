@@ -1,0 +1,1118 @@
+{
+  "dataset": "6651",
+  "quality": "residue-fused",
+  "grid_shape": [
+    1712,
+    360
+  ],
+  "n_bridge_vertices": 607,
+  "n_regions_total": 120,
+  "region_sizes_all": [
+    122,
+    34,
+    4,
+    28,
+    54,
+    5,
+    28,
+    40,
+    22,
+    21,
+    72,
+    7,
+    12,
+    42,
+    25,
+    68,
+    2,
+    25,
+    140,
+    4,
+    5,
+    10,
+    35,
+    54,
+    28,
+    29,
+    14,
+    33,
+    36,
+    31,
+    32,
+    5,
+    25,
+    10,
+    10,
+    32,
+    42,
+    14,
+    16,
+    2,
+    7,
+    9,
+    12,
+    54,
+    4,
+    6,
+    2,
+    28,
+    8,
+    22,
+    20,
+    91,
+    37,
+    57,
+    9,
+    16,
+    3,
+    49,
+    24,
+    19,
+    10,
+    74,
+    10,
+    2,
+    35,
+    92,
+    25,
+    9,
+    17,
+    4,
+    96,
+    23,
+    17,
+    39,
+    84,
+    98,
+    42,
+    34,
+    8,
+    12,
+    18,
+    6,
+    14,
+    63,
+    23,
+    26,
+    32,
+    30,
+    15,
+    38,
+    35,
+    21,
+    13,
+    3,
+    66,
+    45,
+    90,
+    94,
+    34,
+    28,
+    12,
+    16,
+    12,
+    12,
+    136,
+    126,
+    117,
+    17,
+    59,
+    6,
+    14,
+    34,
+    24,
+    52,
+    64,
+    2,
+    44,
+    6,
+    54,
+    34
+  ],
+  "n_sampled": 20,
+  "random_seed": 42,
+  "jump_threshold_mm": 15.0,
+  "sampled_regions": [
+    {
+      "region_id": 6,
+      "size_cells": 54,
+      "n_edges_in_region": 33,
+      "representative_jump": {
+        "direction": "arc",
+        "magnitude_mm": 27.73,
+        "cell1": {
+          "arc_mm": 78.0,
+          "angle_deg": 106.0,
+          "radius_mm": 49.8,
+          "grid_ij": [
+            77,
+            106
+          ]
+        },
+        "cell2": {
+          "arc_mm": 79.0,
+          "angle_deg": 106.0,
+          "radius_mm": 22.07,
+          "grid_ij": [
+            78,
+            106
+          ]
+        }
+      },
+      "hit_point_1": [
+        -33.25,
+        -195.2,
+        -375.17
+      ],
+      "hit_point_2": [
+        -15.41,
+        -190.38,
+        -395.95
+      ],
+      "ray_origin_1": [
+        -3.46,
+        -184.08,
+        -413.49
+      ],
+      "ray_origin_2": [
+        -2.82,
+        -184.78,
+        -413.2
+      ],
+      "dist_to_nearest_bridge_vertex_mm": 30.92,
+      "category": null
+    },
+    {
+      "region_id": 8,
+      "size_cells": 28,
+      "n_edges_in_region": 18,
+      "representative_jump": {
+        "direction": "arc",
+        "magnitude_mm": 28.89,
+        "cell1": {
+          "arc_mm": 86.0,
+          "angle_deg": 105.0,
+          "radius_mm": 20.77,
+          "grid_ij": [
+            85,
+            105
+          ]
+        },
+        "cell2": {
+          "arc_mm": 87.0,
+          "angle_deg": 105.0,
+          "radius_mm": 49.66,
+          "grid_ij": [
+            86,
+            105
+          ]
+        }
+      },
+      "hit_point_1": [
+        -11.32,
+        -193.42,
+        -395.62
+      ],
+      "hit_point_2": [
+        -29.01,
+        -198.33,
+        -373.32
+      ],
+      "ray_origin_1": [
+        1.49,
+        -190.03,
+        -411.61
+      ],
+      "ray_origin_2": [
+        1.97,
+        -190.88,
+        -411.4
+      ],
+      "dist_to_nearest_bridge_vertex_mm": 34.59,
+      "category": null
+    },
+    {
+      "region_id": 19,
+      "size_cells": 25,
+      "n_edges_in_region": 16,
+      "representative_jump": {
+        "direction": "angle",
+        "magnitude_mm": 26.1,
+        "cell1": {
+          "arc_mm": 155.0,
+          "angle_deg": 42.0,
+          "radius_mm": 49.51,
+          "grid_ij": [
+            154,
+            42
+          ]
+        },
+        "cell2": {
+          "arc_mm": 155.0,
+          "angle_deg": 43.0,
+          "radius_mm": 23.41,
+          "grid_ij": [
+            154,
+            43
+          ]
+        }
+      },
+      "hit_point_1": [
+        19.22,
+        -163.52,
+        -384.59
+      ],
+      "hit_point_2": [
+        -4.43,
+        -174.16,
+        -381.54
+      ],
+      "ray_origin_1": [
+        -25.37,
+        -184.09,
+        -378.19
+      ],
+      "ray_origin_2": [
+        -25.37,
+        -184.09,
+        -378.19
+      ],
+      "dist_to_nearest_bridge_vertex_mm": 22.23,
+      "category": null
+    },
+    {
+      "region_id": 23,
+      "size_cells": 10,
+      "n_edges_in_region": 5,
+      "representative_jump": {
+        "direction": "arc",
+        "magnitude_mm": 17.99,
+        "cell1": {
+          "arc_mm": 177.0,
+          "angle_deg": 22.0,
+          "radius_mm": 15.3,
+          "grid_ij": [
+            176,
+            22
+          ]
+        },
+        "cell2": {
+          "arc_mm": 178.0,
+          "angle_deg": 22.0,
+          "radius_mm": 33.29,
+          "grid_ij": [
+            177,
+            22
+          ]
+        }
+      },
+      "hit_point_1": [
+        -11.5,
+        -178.2,
+        -373.97
+      ],
+      "hit_point_2": [
+        -3.83,
+        -187.37,
+        -387.39
+      ],
+      "ray_origin_1": [
+        -19.78,
+        -170.62,
+        -363.58
+      ],
+      "ray_origin_2": [
+        -18.96,
+        -170.45,
+        -363.04
+      ],
+      "dist_to_nearest_bridge_vertex_mm": 27.18,
+      "category": null
+    },
+    {
+      "region_id": 38,
+      "size_cells": 32,
+      "n_edges_in_region": 18,
+      "representative_jump": {
+        "direction": "arc",
+        "magnitude_mm": 37.38,
+        "cell1": {
+          "arc_mm": 302.0,
+          "angle_deg": 350.0,
+          "radius_mm": 49.82,
+          "grid_ij": [
+            301,
+            350
+          ]
+        },
+        "cell2": {
+          "arc_mm": 303.0,
+          "angle_deg": 350.0,
+          "radius_mm": 12.44,
+          "grid_ij": [
+            302,
+            350
+          ]
+        }
+      },
+      "hit_point_1": [
+        27.41,
+        -136.67,
+        -344.46
+      ],
+      "hit_point_2": [
+        8.07,
+        -117.09,
+        -319.15
+      ],
+      "ray_origin_1": [
+        0.57,
+        -110.89,
+        -311.34
+      ],
+      "ray_origin_2": [
+        1.41,
+        -110.64,
+        -310.86
+      ],
+      "dist_to_nearest_bridge_vertex_mm": 11.58,
+      "category": null
+    },
+    {
+      "region_id": 44,
+      "size_cells": 7,
+      "n_edges_in_region": 4,
+      "representative_jump": {
+        "direction": "arc",
+        "magnitude_mm": 15.54,
+        "cell1": {
+          "arc_mm": 849.0,
+          "angle_deg": 36.0,
+          "radius_mm": 15.47,
+          "grid_ij": [
+            848,
+            36
+          ]
+        },
+        "cell2": {
+          "arc_mm": 850.0,
+          "angle_deg": 36.0,
+          "radius_mm": 31.01,
+          "grid_ij": [
+            849,
+            36
+          ]
+        }
+      },
+      "hit_point_1": [
+        -107.6,
+        -180.85,
+        -252.89
+      ],
+      "hit_point_2": [
+        -113.25,
+        -177.93,
+        -267.04
+      ],
+      "ray_origin_1": [
+        -101.82,
+        -183.8,
+        -238.84
+      ],
+      "ray_origin_2": [
+        -102.72,
+        -183.65,
+        -238.44
+      ],
+      "dist_to_nearest_bridge_vertex_mm": 135.59,
+      "category": null
+    },
+    {
+      "region_id": 47,
+      "size_cells": 54,
+      "n_edges_in_region": 35,
+      "representative_jump": {
+        "direction": "arc",
+        "magnitude_mm": 21.01,
+        "cell1": {
+          "arc_mm": 892.0,
+          "angle_deg": 211.0,
+          "radius_mm": 13.84,
+          "grid_ij": [
+            891,
+            211
+          ]
+        },
+        "cell2": {
+          "arc_mm": 893.0,
+          "angle_deg": 211.0,
+          "radius_mm": 34.85,
+          "grid_ij": [
+            892,
+            211
+          ]
+        }
+      },
+      "hit_point_1": [
+        -128.03,
+        -167.0,
+        -223.72
+      ],
+      "hit_point_2": [
+        -121.78,
+        -181.5,
+        -209.9
+      ],
+      "ray_origin_1": [
+        -132.01,
+        -157.6,
+        -233.07
+      ],
+      "ray_origin_2": [
+        -132.46,
+        -157.07,
+        -232.35
+      ],
+      "dist_to_nearest_bridge_vertex_mm": 171.84,
+      "category": null
+    },
+    {
+      "region_id": 50,
+      "size_cells": 2,
+      "n_edges_in_region": 1,
+      "representative_jump": {
+        "direction": "arc",
+        "magnitude_mm": 15.23,
+        "cell1": {
+          "arc_mm": 906.0,
+          "angle_deg": 207.0,
+          "radius_mm": 15.5,
+          "grid_ij": [
+            905,
+            207
+          ]
+        },
+        "cell2": {
+          "arc_mm": 907.0,
+          "angle_deg": 207.0,
+          "radius_mm": 30.73,
+          "grid_ij": [
+            906,
+            207
+          ]
+        }
+      },
+      "hit_point_1": [
+        -132.55,
+        -163.4,
+        -214.25
+      ],
+      "hit_point_2": [
+        -127.93,
+        -175.71,
+        -206.61
+      ],
+      "ray_origin_1": [
+        -137.29,
+        -150.85,
+        -222.01
+      ],
+      "ray_origin_2": [
+        -137.59,
+        -150.43,
+        -221.16
+      ],
+      "dist_to_nearest_bridge_vertex_mm": 181.03,
+      "category": null
+    },
+    {
+      "region_id": 55,
+      "size_cells": 91,
+      "n_edges_in_region": 48,
+      "representative_jump": {
+        "direction": "arc",
+        "magnitude_mm": 37.72,
+        "cell1": {
+          "arc_mm": 1100.0,
+          "angle_deg": 12.0,
+          "radius_mm": 12.14,
+          "grid_ij": [
+            1099,
+            12
+          ]
+        },
+        "cell2": {
+          "arc_mm": 1101.0,
+          "angle_deg": 12.0,
+          "radius_mm": 49.86,
+          "grid_ij": [
+            1100,
+            12
+          ]
+        }
+      },
+      "hit_point_1": [
+        -106.8,
+        -128.24,
+        -68.33
+      ],
+      "hit_point_2": [
+        -114.56,
+        -91.94,
+        -75.79
+      ],
+      "ray_origin_1": [
+        -103.58,
+        -139.39,
+        -64.78
+      ],
+      "ray_origin_2": [
+        -103.09,
+        -139.0,
+        -64.0
+      ],
+      "dist_to_nearest_bridge_vertex_mm": 214.83,
+      "category": null
+    },
+    {
+      "region_id": 59,
+      "size_cells": 16,
+      "n_edges_in_region": 8,
+      "representative_jump": {
+        "direction": "arc",
+        "magnitude_mm": 15.68,
+        "cell1": {
+          "arc_mm": 1146.0,
+          "angle_deg": 249.0,
+          "radius_mm": 16.51,
+          "grid_ij": [
+            1145,
+            249
+          ]
+        },
+        "cell2": {
+          "arc_mm": 1147.0,
+          "angle_deg": 249.0,
+          "radius_mm": 32.19,
+          "grid_ij": [
+            1146,
+            249
+          ]
+        }
+      },
+      "hit_point_1": [
+        -90.95,
+        -110.72,
+        -86.77
+      ],
+      "hit_point_2": [
+        -80.3,
+        -109.83,
+        -98.42
+      ],
+      "ray_origin_1": [
+        -103.63,
+        -111.7,
+        -76.24
+      ],
+      "ray_origin_2": [
+        -104.27,
+        -111.73,
+        -77.01
+      ],
+      "dist_to_nearest_bridge_vertex_mm": 178.82,
+      "category": null
+    },
+    {
+      "region_id": 66,
+      "size_cells": 10,
+      "n_edges_in_region": 6,
+      "representative_jump": {
+        "direction": "arc",
+        "magnitude_mm": 16.54,
+        "cell1": {
+          "arc_mm": 1210.0,
+          "angle_deg": 263.0,
+          "radius_mm": 31.05,
+          "grid_ij": [
+            1209,
+            263
+          ]
+        },
+        "cell2": {
+          "arc_mm": 1211.0,
+          "angle_deg": 263.0,
+          "radius_mm": 14.51,
+          "grid_ij": [
+            1210,
+            263
+          ]
+        }
+      },
+      "hit_point_1": [
+        -92.23,
+        -127.13,
+        -106.48
+      ],
+      "hit_point_2": [
+        -100.2,
+        -123.47,
+        -120.53
+      ],
+      "ray_origin_1": [
+        -107.32,
+        -120.26,
+        -132.73
+      ],
+      "ray_origin_2": [
+        -106.45,
+        -120.27,
+        -133.23
+      ],
+      "dist_to_nearest_bridge_vertex_mm": 183.53,
+      "category": null
+    },
+    {
+      "region_id": 75,
+      "size_cells": 23,
+      "n_edges_in_region": 14,
+      "representative_jump": {
+        "direction": "arc",
+        "magnitude_mm": 29.25,
+        "cell1": {
+          "arc_mm": 1233.0,
+          "angle_deg": 205.0,
+          "radius_mm": 16.21,
+          "grid_ij": [
+            1232,
+            205
+          ]
+        },
+        "cell2": {
+          "arc_mm": 1234.0,
+          "angle_deg": 205.0,
+          "radius_mm": 45.46,
+          "grid_ij": [
+            1233,
+            205
+          ]
+        }
+      },
+      "hit_point_1": [
+        -97.27,
+        -104.4,
+        -123.21
+      ],
+      "hit_point_2": [
+        -109.95,
+        -92.99,
+        -99.33
+      ],
+      "ray_origin_1": [
+        -89.42,
+        -109.51,
+        -136.44
+      ],
+      "ray_origin_2": [
+        -88.86,
+        -108.68,
+        -136.43
+      ],
+      "dist_to_nearest_bridge_vertex_mm": 184.76,
+      "category": null
+    },
+    {
+      "region_id": 83,
+      "size_cells": 12,
+      "n_edges_in_region": 7,
+      "representative_jump": {
+        "direction": "arc",
+        "magnitude_mm": 15.72,
+        "cell1": {
+          "arc_mm": 1427.0,
+          "angle_deg": 321.0,
+          "radius_mm": 16.27,
+          "grid_ij": [
+            1426,
+            321
+          ]
+        },
+        "cell2": {
+          "arc_mm": 1428.0,
+          "angle_deg": 321.0,
+          "radius_mm": 31.99,
+          "grid_ij": [
+            1427,
+            321
+          ]
+        }
+      },
+      "hit_point_1": [
+        55.48,
+        -99.63,
+        -187.98
+      ],
+      "hit_point_2": [
+        47.14,
+        -112.65,
+        -190.84
+      ],
+      "ray_origin_1": [
+        64.19,
+        -86.24,
+        -184.93
+      ],
+      "ray_origin_2": [
+        64.79,
+        -86.77,
+        -184.33
+      ],
+      "dist_to_nearest_bridge_vertex_mm": 38.3,
+      "category": null
+    },
+    {
+      "region_id": 86,
+      "size_cells": 14,
+      "n_edges_in_region": 10,
+      "representative_jump": {
+        "direction": "arc",
+        "magnitude_mm": 22.45,
+        "cell1": {
+          "arc_mm": 1437.0,
+          "angle_deg": 315.0,
+          "radius_mm": 41.15,
+          "grid_ij": [
+            1436,
+            315
+          ]
+        },
+        "cell2": {
+          "arc_mm": 1438.0,
+          "angle_deg": 315.0,
+          "radius_mm": 18.69,
+          "grid_ij": [
+            1437,
+            315
+          ]
+        }
+      },
+      "hit_point_1": [
+        36.05,
+        -110.96,
+        -195.96
+      ],
+      "hit_point_2": [
+        53.86,
+        -100.47,
+        -187.01
+      ],
+      "ray_origin_1": [
+        68.72,
+        -92.66,
+        -178.94
+      ],
+      "ray_origin_2": [
+        68.86,
+        -93.46,
+        -178.35
+      ],
+      "dist_to_nearest_bridge_vertex_mm": 43.94,
+      "category": null
+    },
+    {
+      "region_id": 87,
+      "size_cells": 63,
+      "n_edges_in_region": 40,
+      "representative_jump": {
+        "direction": "arc",
+        "magnitude_mm": 24.37,
+        "cell1": {
+          "arc_mm": 1450.0,
+          "angle_deg": 317.0,
+          "radius_mm": 19.7,
+          "grid_ij": [
+            1449,
+            317
+          ]
+        },
+        "cell2": {
+          "arc_mm": 1451.0,
+          "angle_deg": 317.0,
+          "radius_mm": 44.07,
+          "grid_ij": [
+            1450,
+            317
+          ]
+        }
+      },
+      "hit_point_1": [
+        52.6,
+        -101.78,
+        -187.77
+      ],
+      "hit_point_2": [
+        36.61,
+        -100.48,
+        -206.12
+      ],
+      "ray_origin_1": [
+        65.31,
+        -103.22,
+        -172.78
+      ],
+      "ray_origin_2": [
+        64.83,
+        -104.03,
+        -172.45
+      ],
+      "dist_to_nearest_bridge_vertex_mm": 43.42,
+      "category": null
+    },
+    {
+      "region_id": 90,
+      "size_cells": 32,
+      "n_edges_in_region": 18,
+      "representative_jump": {
+        "direction": "arc",
+        "magnitude_mm": 16.95,
+        "cell1": {
+          "arc_mm": 1469.0,
+          "angle_deg": 81.0,
+          "radius_mm": 34.98,
+          "grid_ij": [
+            1468,
+            81
+          ]
+        },
+        "cell2": {
+          "arc_mm": 1470.0,
+          "angle_deg": 81.0,
+          "radius_mm": 18.03,
+          "grid_ij": [
+            1469,
+            81
+          ]
+        }
+      },
+      "hit_point_1": [
+        89.44,
+        -132.92,
+        -169.82
+      ],
+      "hit_point_2": [
+        73.75,
+        -126.68,
+        -168.09
+      ],
+      "ray_origin_1": [
+        57.38,
+        -119.31,
+        -166.59
+      ],
+      "ray_origin_2": [
+        57.05,
+        -120.17,
+        -166.2
+      ],
+      "dist_to_nearest_bridge_vertex_mm": 20.28,
+      "category": null
+    },
+    {
+      "region_id": 92,
+      "size_cells": 15,
+      "n_edges_in_region": 9,
+      "representative_jump": {
+        "direction": "arc",
+        "magnitude_mm": 17.27,
+        "cell1": {
+          "arc_mm": 1491.0,
+          "angle_deg": 81.0,
+          "radius_mm": 37.56,
+          "grid_ij": [
+            1490,
+            81
+          ]
+        },
+        "cell2": {
+          "arc_mm": 1492.0,
+          "angle_deg": 81.0,
+          "radius_mm": 20.29,
+          "grid_ij": [
+            1491,
+            81
+          ]
+        }
+      },
+      "hit_point_1": [
+        88.81,
+        -125.01,
+        -173.95
+      ],
+      "hit_point_2": [
+        75.33,
+        -132.3,
+        -165.83
+      ],
+      "ray_origin_1": [
+        57.7,
+        -138.21,
+        -157.56
+      ],
+      "ray_origin_2": [
+        58.22,
+        -138.99,
+        -157.2
+      ],
+      "dist_to_nearest_bridge_vertex_mm": 19.3,
+      "category": null
+    },
+    {
+      "region_id": 97,
+      "size_cells": 3,
+      "n_edges_in_region": 2,
+      "representative_jump": {
+        "direction": "angle",
+        "magnitude_mm": 17.05,
+        "cell1": {
+          "arc_mm": 1522.0,
+          "angle_deg": 70.0,
+          "radius_mm": 29.96,
+          "grid_ij": [
+            1521,
+            70
+          ]
+        },
+        "cell2": {
+          "arc_mm": 1522.0,
+          "angle_deg": 71.0,
+          "radius_mm": 47.01,
+          "grid_ij": [
+            1521,
+            71
+          ]
+        }
+      },
+      "hit_point_1": [
+        82.83,
+        -132.94,
+        -173.94
+      ],
+      "hit_point_2": [
+        82.96,
+        -121.97,
+        -187.01
+      ],
+      "ray_origin_1": [
+        82.93,
+        -151.1,
+        -150.12
+      ],
+      "ray_origin_2": [
+        82.93,
+        -151.1,
+        -150.12
+      ],
+      "dist_to_nearest_bridge_vertex_mm": 14.26,
+      "category": null
+    },
+    {
+      "region_id": 104,
+      "size_cells": 28,
+      "n_edges_in_region": 14,
+      "representative_jump": {
+        "direction": "arc",
+        "magnitude_mm": 15.76,
+        "cell1": {
+          "arc_mm": 1548.0,
+          "angle_deg": 262.0,
+          "radius_mm": 37.84,
+          "grid_ij": [
+            1547,
+            262
+          ]
+        },
+        "cell2": {
+          "arc_mm": 1549.0,
+          "angle_deg": 262.0,
+          "radius_mm": 22.08,
+          "grid_ij": [
+            1548,
+            262
+          ]
+        }
+      },
+      "hit_point_1": [
+        114.64,
+        -188.37,
+        -150.59
+      ],
+      "hit_point_2": [
+        109.59,
+        -175.55,
+        -158.45
+      ],
+      "ray_origin_1": [
+        101.55,
+        -156.2,
+        -165.59
+      ],
+      "ray_origin_2": [
+        101.79,
+        -156.52,
+        -166.51
+      ],
+      "dist_to_nearest_bridge_vertex_mm": 55.66,
+      "category": null
+    },
+    {
+      "region_id": 113,
+      "size_cells": 59,
+      "n_edges_in_region": 30,
+      "representative_jump": {
+        "direction": "arc",
+        "magnitude_mm": 30.33,
+        "cell1": {
+          "arc_mm": 1635.0,
+          "angle_deg": 148.0,
+          "radius_mm": 49.44,
+          "grid_ij": [
+            1634,
+            148
+          ]
+        },
+        "cell2": {
+          "arc_mm": 1636.0,
+          "angle_deg": 148.0,
+          "radius_mm": 19.11,
+          "grid_ij": [
+            1635,
+            148
+          ]
+        }
+      },
+      "hit_point_1": [
+        125.64,
+        -126.36,
+        -201.17
+      ],
+      "hit_point_2": [
+        105.69,
+        -124.71,
+        -224.05
+      ],
+      "ray_origin_1": [
+        91.99,
+        -126.2,
+        -237.39
+      ],
+      "ray_origin_2": [
+        92.38,
+        -125.35,
+        -237.75
+      ],
+      "dist_to_nearest_bridge_vertex_mm": 52.75,
+      "category": null
+    }
+  ],
+  "time_s": 261.9
+}

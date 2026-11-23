@@ -1,0 +1,17 @@
+# scans, masks and meshes (not distributed, see README)
+*.nii
+*.nii.gz
+*.nrrd
+*.stl
+*.ply
+*.npz
+Dataset/
+SATO_inputs/
+
+# third-party code (clone separately, see README)
+SATO_repo/
+analysis/sato_batch_run/straighten_seg_fast.py
+
+# tooling
+__pycache__/
+*.pyc

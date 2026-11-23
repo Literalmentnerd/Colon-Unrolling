@@ -1,0 +1,36 @@
+{
+  "dataset": "787 (C0787)",
+  "bridge_edge_definition": "local wall radius, touch_multiplier=1.15 (batch harness definition)",
+  "n_bridge_edges": 2203,
+  "n_bridge_arc_samples": 4406,
+  "window_mm": 15.0,
+  "bridge_turning_angle_mean": 48.82841233344778,
+  "random_turning_angle_mean": 54.74452576509991,
+  "ratio_bridge_over_random_mean": 0.8919323284114793,
+  "pct_bridge_angle_gt_90deg": 3.472537448933273,
+  "pct_random_angle_gt_90deg": 11.393554244212439,
+  "pct_bridge_angle_lt_90deg": 96.52746255106672,
+  "kept_length_mm": 2409.7,
+  "n_shifts": 1000,
+  "seed": 42,
+  "shifted_mean_mean": 54.25,
+  "n_shifts_ge_observed": 720,
+  "permutation_p_value": 0.7202797202797203,
+  "stability_check": {
+    "p_at_10000_shifts_same_seed": 0.7347265273472653,
+    "n_shifts_ge_observed_of_10000": 7347,
+    "p_at_1000_shifts_seeds_0_to_9": [
+      0.7372627372627373,
+      0.7422577422577422,
+      0.7322677322677322,
+      0.7422577422577422,
+      0.7342657342657343,
+      0.7302697302697303,
+      0.7322677322677322,
+      0.7342657342657343,
+      0.7352647352647352,
+      0.7522477522477522
+    ]
+  },
+  "time_s": 457.4
+}

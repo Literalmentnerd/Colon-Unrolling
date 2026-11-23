@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Curated (518)",
+    "n_verts": 343048,
+    "n_faces": 686092,
+    "total_edges": 1029138,
+    "surface_area_m2": 0.1646,
+    "bridge_edge_count": 708,
+    "bridge_edges_per_meter": 583.03,
+    "bridge_per_10k_edges": 6.88
+  },
+  {
+    "name": "TotalSegmentator",
+    "n_verts": 298854,
+    "n_faces": 597704,
+    "total_edges": 896556,
+    "surface_area_m2": 0.1434,
+    "bridge_edge_count": 336,
+    "bridge_edges_per_meter": 276.96,
+    "bridge_per_10k_edges": 3.748
+  },
+  {
+    "name": "MONAI",
+    "n_verts": 302810,
+    "n_faces": 605620,
+    "total_edges": 908430,
+    "surface_area_m2": 0.145,
+    "bridge_edge_count": 292,
+    "bridge_edges_per_meter": 239.1,
+    "bridge_per_10k_edges": 3.214
+  }
+]
